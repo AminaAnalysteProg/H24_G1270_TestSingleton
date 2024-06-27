@@ -2,6 +2,9 @@ public class Singleton {
 private  int  nbrExecution=0;
     private static Singleton instance=null;
 
+    /**
+     * constructeur singleton
+     */
     private Singleton()
     {
 
